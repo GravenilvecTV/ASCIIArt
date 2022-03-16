@@ -13,7 +13,7 @@ while True:
     # EN REVANCHE si l'utiulisateur en entre un bon: 
     elif r.status_code == 200:
         file = open("image.jpg", "wb")
-        file.write(response.content)
+        file.write(r.content)
         file.close()
 
     with Image.open("image.jpg") as image:
