@@ -7,6 +7,10 @@ pip install pillow
 ```
 
 ```bash
+pip install requests
+```
+
+```bash
 git clone https://github.com/GravenilvecTV/ASCIIArt
 ```
 
